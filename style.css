@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  /* .image_main{
+    background-image: url(./11.avif);
+ } 
+   */
+  header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+  }
+  
+  .container {
+  
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    
+    font-size: 1em;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  nav li:hover{
+    cursor: pointer;
+    background-color: rgb(235, 101, 101);
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  main {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .banner {
+    background-image: url("./11.avif"); 
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0;
+    color: white;
+  }
+  
+  .banner h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .watch-more, .subscribe {
+    background-color: #e0e0e0;
+    padding: 10px 20px;
+    border: none;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  .watch-more:hover{
+    background-color: orange;
+  }
+  
+  .subscribe {
+    background-color: red;
+    color: white;
+  }
+  h2{
+  font-size: 3838px;
+  }
